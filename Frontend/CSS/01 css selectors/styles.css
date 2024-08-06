@@ -1,0 +1,72 @@
+.html{
+    color : rgb(240, 100, 41);
+}
+.css{
+    color : rgb(69, 122, 247);
+}
+.js{
+    color : rgb(245, 219, 27);
+}
+.react{
+    color : rgb(8, 214, 255);
+}
+.tailwind{
+    color : rgb(17, 169, 189);
+}
+li{
+    font-weight: 700;
+}
+#html{
+    font-size: 32px;
+}
+#css{
+    font-size: 28px;
+}
+#js{
+    font-size: 35px;
+}
+#react{
+    font-size: 28px;
+}
+#Tailwind{
+    font-size: 33px;
+}
+/* attribute selector */
+[class],
+ul{
+    background-color: rgb(216, 253, 225);
+}
+[gaurav]{
+    background-color: rgb(252, 201, 201);
+}
+[tiwari=ji]{
+    background-color: rgb(236, 239, 177);
+}
+/* pseudo selector */
+li:hover{
+    background-color: rgba(55, 52, 66, 0.815);
+}
+/* combination selector */
+h1,h2{
+    color: rgb(105, 60, 60);
+}
+#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover#hh:hover,
+#tiwari:hover {
+    color: rgb(107, 186, 250);
+}
+#css.css:hover{
+    color: rgb(143, 174, 236);
+}
+#Tailwind.tailwind:hover{
+    color: rgb(178, 168, 244);
+}
+#html#html#html#html#html#html#html#html#html#html#html#html#html#html:hover{
+    color: rgb(237, 148, 148);
+}

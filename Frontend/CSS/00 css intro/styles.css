@@ -1,0 +1,15 @@
+p{
+    color : red;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: cursive;
+    text-decoration: underline wavy white;
+    font-style: italic;
+}
+body{
+    background-color : black;
+}
+a{
+    color : yellow;
+    text-decoration: none;
+}
