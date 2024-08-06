@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body style="font-family: sans-serif;">
+<center>
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="/">
+        <fieldset style="width: fit-content; border: 1px solid rgb(77, 175, 255, 0.5); text-align: left !important;" >
+        <p>
+            <div><label for="username">Username</label></div>
+            <input id="username" name="username" type="text" placeholder="Enter your name please" required>
+        </p>
+        <p>
+            <div><label for="email">Email</label></div>
+            <input id="email" name="email" type="email" placeholder="hi@hotmail.com" required>
+        </p>
+        <p>
+            <div><label for="number">Mobile Number</label></div>
+            <input id="number" name="number" type="number" placeholder="987654321" required>
+        </p>
+        <p> 
+            <div><label for="password">Password</label></div>
+            <input id="password" name="password" type="password" placeholder="*****" required>
+        </p>
+        <p>
+            <div>
+                <label for="tc"><a href="/">Terms and Conditions</a></label>
+                <input id="tc" name="tc" type="checkbox" required>
+            </div>
+        </p>
+        <input type="button" value="Submit" style="width: 100%; border-radius: 20px; border-color: rgb(77, 175, 255, 0.5);">
+    </fieldset>
+    </form>
+</center>        
+
+<div hidden>
+    <h2>Youtube</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search on Youtube</button>
+    </form>
+    <h2>Google</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search on Google</button>
+    </form>
+    <h2>My Form</h2>
+    <form action="/">
+        <input type="text" name="a">
+        <input type="text" name="b">
+        <button>Submit</button>
+    </form>
+    <h2>My Form2</h2>
+    <form action="/">
+        <label for="yourname">Your name</label>
+        <input id="yourname" type="text" placeholder="Enter your name please" required>
+        <input type="password" placeholder="*******" minlength="6" maxlength="10">
+        <input type="number" placeholder="1234" min="100" max="500">
+        <input type="file">
+        <input type="time">
+        <input type="date">
+        <input type="color">
+        <input type="range">
+        <input type="submit" value="search">
+        <input type="reset">
+        <input type="hidden">
+        <input type="search">search
+        <input type="radio">
+        <input type="checkbox">
+        <input type="image">
+        <input type="url">url
+        <input type="email">email
+        <input type="tel">tel
+        <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>
