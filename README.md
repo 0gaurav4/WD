@@ -19,6 +19,6 @@
 
 Practice
 
- 01 - https://0gaurav4.github.io/WD/Frontend/HTML/Practice/index.html
+ 01 - https://0gaurav4.github.io/WD//Frontend/Practice/index.html
  
  
