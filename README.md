@@ -11,8 +11,14 @@
 
  04 - https://0gaurav4.github.io/WD/Frontend/HTML/05%20head%20tag%20and%20routing/index.html
 
+ CSS
+
+ 01 - https://0gaurav4.github.io/WD/Frontend/CSS/00%20css%20intro/index.html
+
+ 02 - https://0gaurav4.github.io/WD/Frontend/CSS/01%20css%20selectors/index.html
+
 Practice
 
- 01 - https://0gaurav4.github.io/WD//Frontend/HTML/Practice/index.html
+ 01 - https://0gaurav4.github.io/WD/Frontend/HTML/Practice/index.html
  
  
