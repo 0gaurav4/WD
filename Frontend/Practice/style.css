@@ -34,6 +34,9 @@ table{
 .dates{
     color : blue;
 }
+table{
+    padding: 10px;
+}
 @media screen and (max-width: 600px) {
     main{
         display: flex;
